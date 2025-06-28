@@ -1,7 +1,6 @@
 package Intermediario.Desafio3;
 
-import Intermediario.HyuugaUzumaki;
-import Intermediario.Uzumaki;
+
 
 public class Main {
     public static void main(String[] args) {

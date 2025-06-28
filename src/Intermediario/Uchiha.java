@@ -1,9 +1,15 @@
 package Intermediario;
 
 public class Uchiha extends Ninja {
-    String cla = "Uchiha";
 
-    public void usarHabilidade() {
-        System.out.println(nome + ": Active Sharigan");
+    public Uchiha(String nome, int idade, tipoVilaOculta vilaOculta) {
+        super(nome, idade, vilaOculta);
+        this.cla = "Uchiha";
+        this.vilaOculta = tipoVilaOculta.FOLHA;
+    }
+
+    @Override
+    public void usarJutsu() {
+        System.out.println("Jutsu: Bola de Fogo!");
     }
 }
