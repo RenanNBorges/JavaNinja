@@ -17,6 +17,10 @@ public class Main {
         Naruto.nome = "Naruto";
         Naruto.usarHabilidade();
 
+        Sasuke.jutsus[0] = new Raiton();
+
+        Sasuke.jutsus[0].usar();
+
 
 
 

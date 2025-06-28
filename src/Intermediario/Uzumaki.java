@@ -1,6 +1,6 @@
 package Intermediario;
 
-public class Uzumaki extends Ninja{
+public class Uzumaki extends Ninja {
     String cla = "Uzumaki";
 
     public void usarHabilidade() {
