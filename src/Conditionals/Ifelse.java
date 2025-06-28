@@ -1,4 +1,4 @@
-package DataTypes;
+package Conditionals;
 
 public class Ifelse {
 
