@@ -1,4 +1,4 @@
-package DataTypes;
+package Basico;
 
 public class NonPrimitiveTypes {
     public static void main(String[] args) {
